@@ -1,0 +1,91 @@
+body{
+    height: 100%;
+    background-color: rgb(138, 138, 227);
+}
+.topnav{
+    background-color: rgb(90, 77, 195);
+    overflow: hidden;
+}
+.topnav a{
+ padding: 14px 16px;
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+ border-collapse: collapse;
+ float: left;
+ margin-left: 100px;
+}
+.topnav a:hover{
+    background-color: rgb(52, 52, 128);
+    transition: 1s ease;
+}
+.topnav a:active{
+    background-color: rgb(53, 52, 52);
+}
+.div1{
+border: 4px solid black;
+margin-right: 190px;
+background-color: rgb(192, 192, 78);
+border-radius: 9px;
+}
+.div1 p{
+text-align: justify;
+padding: 19px 19px 1px 19px;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div1:hover{
+    box-shadow: 10px 10px 0px 0px;
+    transition: 0.5s;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius:50% ;
+    border: 4px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+}
+.div2{
+    border: 4px solid black;
+    margin-right: 190px;
+    margin-top: 50px;
+    border-radius: 9px;
+    padding: 1px 19px 1px 19px;
+    background-color:rgb(192, 192, 78) ;
+}
+.div2:hover{
+    box-shadow: 10px 10px 0px 0px;
+    transition: 0.5s;
+}
+.ol1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.div3{
+    border: 4px solid black;
+    margin-right: 190px;
+    margin-top: 50px;
+    border-radius: 9px;
+    padding: 1px 19px 1px 19px;
+    background-color:rgb(192, 192, 78) ;
+}
+.div3:hover{
+    box-shadow: 10px 10px 0px 0px;
+    transition: 0.5s;
+}
+.ol2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+

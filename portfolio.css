@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.portfolio-items {
+    overflow: hidden; 
+    margin: 0 -10px;
+}
+
+.item {
+    width: 45%;          
+    margin: 10px 2%;     
+    float: left;         
+    background-color: #eaeaea;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.item h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.item p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.portfolio-items::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item h3 a{
+    text-decoration: none;
+    color: black;
+}
+.item h3 a:hover{
+color: grey;
+transition: 1s ease;
+}
+.item:hover{
+    box-shadow: 10px 10px 0px 0px;
+    transition: 1s ease;
+}
+.topnav{
+    background-color: rgb(55, 61, 55);
+    overflow: hidden;
+}
+.topnav a{
+ padding: 14px 16px;
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+ border-collapse: collapse;
+ float: left;
+ margin-left: 100px;
+}
+.topnav a:hover{
+    background-color: rgb(81, 77, 77);
+    transition: 1s ease;
+}
